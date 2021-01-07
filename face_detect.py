@@ -1,4 +1,5 @@
 import cv2
+
 # Cascading classifiers are trained with several hundred "positive" sample views of a particular object and arbitrary "negative" images of the same size.
 trained_face_data= cv2.CascadeClassifier('haarcascade.xml')
 # to read image
